@@ -1,21 +1,102 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Homepage Name</title>
-<link rel="stylesheet" href="style.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About BJJ - Flow and Roll</title>
+    <script src="index.html"></script>
+  </head>
+  <body>
+    <main class="overflow-hidden bg-white">
+      <div class="flex flex-col w-full bg-white max-md:max-w-full">
+        <!-- Header -->
+        <header
+          class="flex flex-wrap gap-5 justify-between items-end px-16 pt-6 w-full text-base text-black bg-white max-md:px-5 max-md:max-w-full"
+        >
+          <h1 class="mt-6">About BJJ</h1>
+          <img
+            src="index.html"
+            alt="BJJ Logo"
+            class="object-contain shrink-0 self-start max-w-full aspect-[3] w-[150px]"
+          />
+          <nav class="flex gap-9 mt-6 whitespace-nowrap">
+            <button>SEARCH</button>
+            <button>CART</button>
+          </nav>
+        </header>
 
-<!-- this is how you write a comment describing your code in HTML. the body section is for all content that is visible. Keep it here! Semantic structure is just as important as syntax. -->
-<body>
-<h1>by Aaronzhang</h1>
-<h2>welcome to my</h2>
-<h3>Subheading 3</h3>
-	<p>Hello world, this is the website of xyz good good good</p>
-<div><a href="about.html">About</a></div>
-<img src="images/download.jpg">
+        <!-- Feature Grid -->
+        <section
+          class="self-center mt-14 w-full max-w-[1101px] max-md:mt-10 max-md:max-w-full"
+        >
+          <div class="flex gap-5 max-md:flex-col">
+            <!-- Feature Card 1 -->
+            <div class="w-[33%] max-md:ml-0 max-md:w-full">
+              <article
+                class="flex relative flex-col grow px-16 py-72 text-3xl leading-tight text-center text-white aspect-[0.563] max-md:px-5 max-md:py-24 max-md:mt-5"
+              >
+                <img
+                  src="index.html"
+                  alt="History & Origins"
+                  class="object-cover absolute inset-0 size-full"
+                />
+                <h2 class="relative z-10">History & Origins</h2>
+              </article>
+            </div>
 
-</body>
+            <!-- Feature Card 2 -->
+            <div class="ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+              <article
+                class="flex relative flex-col grow px-9 py-72 text-3xl leading-tight text-center text-white aspect-[0.563] max-md:px-5 max-md:py-24 max-md:mt-5"
+              >
+                <img
+                  src="index.html"
+                  alt="Philosophy & Principles"
+                  class="object-cover absolute inset-0 size-full"
+                />
+                <h2 class="relative z-10">Philosophy & Principles</h2>
+              </article>
+            </div>
+
+            <!-- Feature Card 3 -->
+            <div class="ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+              <article
+                class="flex relative flex-col grow px-11 py-72 text-3xl leading-tight text-center text-white aspect-[0.563] max-md:px-5 max-md:py-24 max-md:mt-5"
+              >
+                <img
+                  src="index.html"
+                  alt="Famous Practitioners"
+                  class="object-cover absolute inset-0 size-full"
+                />
+                <h2 class="relative z-10">Famous Practitioners</h2>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- Image Section -->
+        <section
+          class="px-10 pt-8 pb-64 mt-8 bg-white max-md:px-5 max-md:pb-24 max-md:max-w-full"
+        >
+          <img
+            src="index.html"
+            alt="BJJ Demonstration"
+            class="object-contain mb-0 w-full aspect-[1.39] max-md:mb-2.5 max-md:max-w-full"
+          />
+        </section>
+
+        <!-- Footer -->
+        <footer
+          class="flex flex-wrap gap-5 justify-between px-10 py-16 mt-10 w-full text-base text-black bg-white max-md:px-5 max-md:max-w-full"
+        >
+          <nav class="flex gap-5 whitespace-nowrap">
+            <a href="#contact" class="grow">CONTACT</a>
+            <a href="#terms">TERMS</a>
+            <a href="#privacy">PRIVACY</a>
+          </nav>
+          <p>Flow and Roll© 2025</p>
+        </footer>
+      </div>
+    </main>
+  </body>
 </html>
