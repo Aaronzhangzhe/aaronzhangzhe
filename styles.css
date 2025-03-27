@@ -31,6 +31,21 @@ ul {
 }
 
 /* header */
+@font-face{
+    font-family: 'Apropal-Bold';
+    src:url('/fonts/Apropal-Bold.woff') format('woff') format('woff'),
+        url('/fonts/Apropal-Bold.woff')format('woff') format('woff2');
+        font-weight:normal;
+        font-style: normal;
+    
+}
+h1{
+    font-family: "Apropal-Bold";
+    font-size: 200%;
+    text-align: center;
+    margin-top: 10%;
+    line-height: 0.8;
+}
 header {
     background-color: #fff;
     box-shadow: none;
@@ -185,17 +200,10 @@ nav ul.nav-menu li a.active {
     position: relative;
     z-index: 2;
 }
-@font-face{
-    font-family: 'Apropal-Bold';
-    src:url('/fonts/Apropal-Bold.woff') format('woff') format('woff'),
-        url('/fonts/Apropal-Bold.woff')format('woff') format('woff2');
-        font-weight:normal;
-        font-style: normal;
-    
-}
+
 
 .hero h1 {
-    font-family: "Apropal-Bold";
+    
     font-size: 4.5rem;
     margin-bottom: 20px;
     font-weight: 700;
