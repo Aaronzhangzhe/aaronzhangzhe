@@ -251,14 +251,16 @@ nav ul.nav-menu li a.active {
 /* BJJ tittles section */
 @font-face {
     font-family: 'Apropal-Bold';
-    src: url('/fonts/Apropal-Bold.woff') format('woff'),
-         url('/fonts/Apropal-Bold.woff2') format('woff2');
+    src: url('/fonts/Apropal-Bold.woff') format('woff2'),
+         url('/fonts/Apropal-Bold.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 
 .bjj-title {
+    font-family: "Apropal-Bold";
+    font-size: 200%;
     text-align: center;
     padding: 60px 0;
     background-color: white;
