@@ -148,6 +148,7 @@ nav ul.nav-menu li a.active {
 }
 
 /* 英雄区域样式 */
+ 
 .hero {
     background-color: #333;
     background-image: url(images/bg1.jpg);
@@ -190,6 +191,14 @@ nav ul.nav-menu li a.active {
     letter-spacing: 1px;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+font-face{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    src:url('/fonts/Apropal-Bold.woff') format('woff') format('woff'),
+        url('/fonts/Apropal-Bold.woff')format('woff') format('woff2');
+        font-weight:normal;
+        font-style: normal;
+    
 }
 
 .hero p {

@@ -46,13 +46,13 @@ document.addEventListener('DOMContentLoaded', function() {
         button.addEventListener('click', function(e) {
             if (this.classList.contains('new-post-btn')) {
                 e.stopPropagation(); // 阻止事件冒泡
-                alert('创建新帖子');
+                alert('create a new forum');
             } else if (this.classList.contains('btn-primary')) {
                 e.preventDefault();
-                alert('感谢您的兴趣！我们将很快联系您。');
+                alert('It will upload soon');
             } else if (this.classList.contains('btn-secondary')) {
                 e.preventDefault();
-                alert('您即将查看我们的会员计划详情！');
+                alert('it will upload soon');
             }
         });
     });
