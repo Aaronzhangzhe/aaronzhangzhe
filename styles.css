@@ -248,11 +248,11 @@ nav ul.nav-menu li a.active {
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-/* BJJ标题区域 */
+/* BJJ tittles section */
 @font-face {
     font-family: 'Apropal-Bold';
-    src: url('jiujitsu/fonts/Apropal-Bold.woff') format('woff'),
-         url('jiujitsu/fonts/Apropal-Bold.woff2') format('woff2');
+    src: url('/fonts/Apropal-Bold.woff') format('woff'),
+         url('/fonts/Apropal-Bold.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
