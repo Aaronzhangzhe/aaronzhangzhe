@@ -31,21 +31,7 @@ ul {
 }
 
 /* header */
-@font-face {
-    font-family: 'Apropal-Bold';
-    src: url('jiujitsu/fonts/Apropal-Bold.woff') format('woff'),
-         url('jiujitsu/fonts/Apropal-Bold.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
 
-h1{
-    font-family: "Apropal-Bold";
-    font-size: 200%;
-    text-align: center;
-    margin-top: 10%;
-    line-height: 0.8;
-}
 header {
     background-color: #fff;
     box-shadow: none;
@@ -263,6 +249,15 @@ nav ul.nav-menu li a.active {
 }
 
 /* BJJ标题区域 */
+@font-face {
+    font-family: 'Apropal-Bold';
+    src: url('jiujitsu/fonts/Apropal-Bold.woff') format('woff'),
+         url('jiujitsu/fonts/Apropal-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 .bjj-title {
     text-align: center;
     padding: 60px 0;
