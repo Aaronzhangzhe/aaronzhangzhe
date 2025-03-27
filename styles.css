@@ -1,4 +1,4 @@
-/* å…¨å±€æ ·å¼ */
+/* 全局样式 */
 * {
     margin: 0;
     padding: 0;
@@ -30,7 +30,7 @@ ul {
     list-style: none;
 }
 
-/* å¤´éƒ¨æ ·å¼ */
+/* 头部样式 */
 header {
     background-color: #fff;
     box-shadow: none;
@@ -103,7 +103,7 @@ nav ul.nav-menu li a.active {
     color: #333;
 }
 
-/* ç§»åŠ¨ç«¯å¯¼èˆªæ ·å¼è°ƒæ•´ */
+/* 移动端导航样式调整 */
 @media (max-width: 900px) {
     header {
         padding: 20px 0;
@@ -147,7 +147,7 @@ nav ul.nav-menu li a.active {
     }
 }
 
-/* è‹±é›„åŒºåŸŸæ ·å¼ */
+/* 英雄区域样式 */
 .hero {
     background-color: #333;
     background-image: url(images/bg1.jpg);
@@ -239,7 +239,7 @@ nav ul.nav-menu li a.active {
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-/* BJJæ ‡é¢˜åŒºåŸŸ */
+/* BJJ标题区域 */
 .bjj-title {
     text-align: center;
     padding: 60px 0;
@@ -265,7 +265,7 @@ nav ul.nav-menu li a.active {
     background-color: #f2a900;
 }
 
-/* ç±»åˆ«å¡ç‰‡åŒºåŸŸ */
+/* 类别卡片区域 */
 .categories {
     padding: 40px 0 80px;
     background-color: #f8f8f8;
@@ -340,7 +340,7 @@ nav ul.nav-menu li a.active {
     background-color: #f2a900;
 }
 
-/* è®­ç»ƒè¯¾ç¨‹éƒ¨åˆ† */
+/* 训练课程部分 */
 .programs {
     padding: 80px 0;
     background-color: #f9f9f9;
@@ -407,7 +407,7 @@ nav ul.nav-menu li a.active {
     transform: scale(1.05);
 }
 
-/* Programså“åº”å¼è®¾è®¡ */
+/* Programs响应式设计 */
 @media (max-width: 900px) {
     .programs {
         padding: 60px 0;
@@ -456,7 +456,7 @@ nav ul.nav-menu li a.active {
     }
 }
 
-/* åº•éƒ¨æ ·å¼ */
+/* 底部样式 */
 footer {
     background-color: #333333;
     color: #fff;
@@ -538,7 +538,7 @@ footer {
     color: #a0a0a0;
 }
 
-/* å“åº”å¼è®¾è®¡ */
+/* 响应式设计 */
 @media (max-width: 900px) {
     .mobile-nav {
         display: flex;
@@ -653,7 +653,7 @@ footer {
     }
 }
 
-/* Discoveré¡µé¢é¡¶éƒ¨å¯¼èˆª */
+/* Discover页面顶部导航 */
 .discover-nav {
     background-color: #fff;
     padding: 15px 0;
@@ -691,7 +691,7 @@ footer {
     cursor: pointer;
 }
 
-/* About BJJ éƒ¨åˆ† */
+/* About BJJ 部分 */
 .about-bjj {
     padding: 40px 0;
 }
@@ -739,7 +739,7 @@ footer {
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
 }
 
-/* å“åº”å¼è®¾è®¡ */
+/* 响应式设计 */
 @media (max-width: 900px) {
     .bjj-grid {
         grid-template-columns: 1fr;
@@ -765,7 +765,7 @@ footer {
     }
 }
 
-/* ç‰ˆæƒä¿¡æ¯éƒ¨åˆ† */
+/* 版权信息部分 */
 .copyright {
     padding: 20px 0;
     background-color: #f5f5f5;
@@ -796,7 +796,7 @@ footer {
     font-size: 0.85rem;
 }
 
-/* å“åº”å¼è®¾è®¡ */
+/* 响应式设计 */
 @media (max-width: 600px) {
     .copyright .container {
         flex-direction: column;
@@ -817,7 +817,7 @@ footer {
     }
 }
 
-/* å¤§å›¾å±•ç¤ºåŒº */
+/* 大图展示区 */
 .hero-image-section {
     padding: 50px 0;
     background-color: #f9f9f9;
@@ -836,7 +836,7 @@ footer {
     display: block;
 }
 
-/* ç¤¾åŒºè®ºå›æ ·å¼ */
+/* 社区论坛样式 */
 .forum-section {
     padding: 40px 0 80px;
     background-color: #f5f5f5;
@@ -920,7 +920,7 @@ footer {
     font-size: 0.9rem;
 }
 
-/* ç¤¾åŒºè®ºå›æ ·å¼çš„ç§»åŠ¨ç«¯è°ƒæ•´ */
+/* 社区论坛样式的移动端调整 */
 @media (max-width: 768px) {
     .community-header {
         padding: 10px 0;
@@ -972,7 +972,7 @@ footer {
     }
 }
 
-/* ç¤¾åŒºé¡µé¢ç‰¹å®šæ ·å¼ */
+/* 社区页面特定样式 */
 .community-page {
     background-color: #f5f5f5;
 }
@@ -1020,7 +1020,7 @@ footer {
     color: #666;
 }
 
-/* ç§»åŠ¨ç«¯èœå•æ ·å¼ */
+/* 移动端菜单样式 */
 .mobile-menu-toggle {
     display: block;
 }
@@ -1086,7 +1086,7 @@ footer {
     display: block;
 }
 
-/* About BJJé¡µé¢æ ·å¼ */
+/* About BJJ页面样式 */
 .about-intro {
     padding: 70px 0 50px;
     background-color: #fff;
@@ -1189,7 +1189,7 @@ footer {
     font-size: 0.95rem;
 }
 
-/* å“åº”å¼è®¾è®¡ */
+/* 响应式设计 */
 @media (max-width: 900px) {
     .content-grid, .principles-grid {
         grid-template-columns: 1fr;
@@ -1235,7 +1235,7 @@ footer {
     }
 }
 
-/* Training Optionséƒ¨åˆ†æ ·å¼ */
+/* Training Options部分样式 */
 .training-options {
     padding: 70px 0;
     background-color: #f9f9f9;
@@ -1294,7 +1294,7 @@ footer {
     object-fit: cover;
 }
 
-/* Training Optionså“åº”å¼è®¾è®¡ */
+/* Training Options响应式设计 */
 @media (max-width: 900px) {
     .options-grid {
         grid-template-columns: 1fr;
@@ -1337,7 +1337,7 @@ footer {
     }
 }
 
-/* æ–°çš„åº•éƒ¨å¯¼èˆªæ ·å¼ */
+/* 新的底部导航样式 */
 .site-footer {
     background-color: #fff;
     padding: 60px 0 30px;
@@ -1428,7 +1428,7 @@ footer {
     color: #333;
 }
 
-/* åº•éƒ¨å¯¼èˆªå“åº”å¼è®¾è®¡ */
+/* 底部导航响应式设计 */
 @media (max-width: 900px) {
     .footer-content {
         flex-direction: column;
