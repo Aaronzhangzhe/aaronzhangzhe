@@ -150,9 +150,17 @@ nav ul.nav-menu li a.active {
 
 /* heros */
 
-
+@font-face {
+    font-family: 'Apropal-Bold';
+    src: url('/fonts/Apropal-Bold.woff') format('woff'),
+         url('/fonts/Apropal-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
  
 .hero {
+
+
     background-color: #333;
     background-image: url(images/bg1.jpg);
     background-size: cover;
@@ -187,16 +195,10 @@ nav ul.nav-menu li a.active {
     z-index: 2;
 }
 
-@font-face {
-    font-family: 'Apropal-Bold';
-    src: url('/fonts/Apropal-Bold.woff') format('woff2'),
-         url('/fonts/Apropal-Bold.woff2') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-.hero h1 {
 
-    font-family: "Pilowlava-Atome";
+.hero h1 {
+    
+    font-family: "Apropal-Bold";
     font-size: 4.5rem;
     margin-bottom: 20px;
     font-weight: 700;
