@@ -31,14 +31,18 @@ ul {
 }
 
 /* header */
-@font-face{
+@font-face {
     font-family: 'Apropal-Bold';
-    src:url('/fonts/Apropal-Bold.woff') format('woff') format('woff'),
-        url('/fonts/Apropal-Bold.woff')format('woff') format('woff2');
-        font-weight:normal;
-        font-style: normal;
-    
+    src: url('/fonts/Apropal-Bold.woff') format('woff'),
+         url('/fonts/Apropal-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
+
+body {
+    font-family: 'Apropal-Bold', sans-serif;
+}
+
 h1{
     font-family: "Apropal-Bold";
     font-size: 200%;
