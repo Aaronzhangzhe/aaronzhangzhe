@@ -1,4 +1,4 @@
-/* 全局样式 */
+/* all */
 * {
     margin: 0;
     padding: 0;
@@ -30,7 +30,7 @@ ul {
     list-style: none;
 }
 
-/* 头部样式 */
+/* header */
 header {
     background-color: #fff;
     box-shadow: none;
@@ -103,7 +103,7 @@ nav ul.nav-menu li a.active {
     color: #333;
 }
 
-/* 移动端导航样式调整 */
+/* media */
 @media (max-width: 900px) {
     header {
         padding: 20px 0;
@@ -147,7 +147,7 @@ nav ul.nav-menu li a.active {
     }
 }
 
-/* 英雄区域样式 */
+/* heros */
  
 .hero {
     background-color: #333;
@@ -191,9 +191,11 @@ nav ul.nav-menu li a.active {
     letter-spacing: 1px;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+
 }
 font-face{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Apropal-Bold';
     src:url('/fonts/Apropal-Bold.woff') format('woff') format('woff'),
         url('/fonts/Apropal-Bold.woff')format('woff') format('woff2');
         font-weight:normal;
